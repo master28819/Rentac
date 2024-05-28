@@ -9,20 +9,21 @@
   <!-- set the viewport width and initial-scale on mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Signup</title>
+  <link rel="shortcut icon" href="../Images/logos/signup.jpg" type="image/x-icon">
   <!-- include the site stylesheet -->
   <link
     href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic%7cMontserrat:400,700%7cOxygen:400,300,700'
     rel='stylesheet' type='text/css'>
   <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
   <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="../css/animate.css">
   <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/icon-fonts.css">
+  <link rel="stylesheet" href="../css/icon-fonts.css">
   <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/main.css">
   <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
     <!-- Page Loader -->
     <div id="pre-loader" class="loader-container">
       <div class="loader">
-        <img src="images/svg/rings.svg" alt="loader">
+        <img src="../images/svg/rings.svg" alt="loader">
       </div>
     </div>
     <div class="w1">
@@ -43,7 +44,7 @@
             <div class="row">
               <div class="col-xs-12">
                 <!-- mt logo start here -->
-                <div class="mt-logo"><a href="#"><img src="images/logo/final.png" alt="schon"></a></div>
+                <div class="mt-logo"><a href="#"><img src="../Images/logos/Rentac.jpg" alt="Rentac"></a></div>
                 <!-- mt icon list start here -->
                 <ul class="mt-icon-list">
                   <li class="hidden-lg hidden-md">
@@ -54,16 +55,14 @@
                     </a>
                   </li>
                 </ul>
-                <!-- mt icon list end here -->
-                <!-- navigation start here -->
                 <nav id="nav">
                   <ul>
                     <li>
-                      <a class="drop-link" href="home.html">HOME <i class="fa fa-angle-down hidden-lg hidden-md"
+                      <a href="../scripts/home.php">HOME <i class="fa fa-angle-down hidden-lg hidden-md"
                           aria-hidden="true"></i></a>
                     </li>
                     <li>
-                      <a class="drop-link" href="product.html">PRODUCTS <i class="fa fa-angle-down hidden-lg hidden-md"
+                      <a href="../scripts/product.php">PRODUCTS <i class="fa fa-angle-down hidden-lg hidden-md"
                           aria-hidden="true"></i></a>
                     </li>
                     <li class="drop">
@@ -79,10 +78,10 @@
                                   Events</a></strong>
                               <div class="sub-drop">
                                 <ul>
-                                  <li><a href="#">Birthday</a></li>
-                                  <li><a href="#">Seminar</a></li>
-                                  <li><a href="#">Party</a></li>
-                                  <li><a href="#">Wedding</a></li>
+                                  <li><a href="../scripts/product.php?event=birthday">Birthday</a></li>
+                                  <li><a href="../scripts/product.php?event=seminar">Seminar</a></li>
+                                  <li><a href="../scripts/product.php?event=party">Party</a></li>
+                                  <li><a href="../scripts/product.php?event=wedding">Wedding</a></li>
                                 </ul>
                               </div>
                             </div>
@@ -95,9 +94,9 @@
                       <!-- mt dropmenu end here -->
                       <span class="mt-mdropover"></span>
                     </li>
-                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="aboutus.html">About</a></li>
                     <li>
-                      <a href="contact-us.html">Contact <i class="fa fa-angle-down hidden-lg hidden-md"
+                      <a href="contactus.html">Contact <i class="fa fa-angle-down hidden-lg hidden-md"
                           aria-hidden="true"></i></a>
                     </li>
                   </ul>
@@ -110,21 +109,6 @@
         <!-- mt bottom bar end here -->
         <span class="mt-side-over"></span>
       </header>
-      <!-- mt search popup start here -->
-      <div class="mt-search-popup">
-        <div class="mt-holder">
-          <a href="#" class="search-close"><span></span><span></span></a>
-          <div class="mt-frame">
-            <form action="#">
-              <fieldset>
-                <input type="text" placeholder="Search...">
-                <span class="icon-microphone"></span>
-                <button class="icon-magnifier" type="submit"></button>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </div><!-- mt search popup end here -->
       <!-- Main of the Page -->
       <main id="mt-main">
         <!-- Mt Content Banner of the Page end -->
@@ -215,7 +199,7 @@
                 <!-- F Widget About of the Page -->
                 <div class="f-widget-about">
                   <div class="logo">
-                    <a href="index.html"><img src="images/logo/final.png" alt="Rentac"></a>
+                    <a href="index.html"><img src="../Images/logos/Rentac.jpg" alt="Rentac"></a>
                   </div>
                   <ul class="list-unstyled address-list">
                     <li><i class="fa fa-map-marker"></i>
@@ -233,9 +217,9 @@
                 <div class="nav-widget-1">
                   <h3 class="f-widget-heading">Categories</h3>
                   <ul class="list-unstyled f-widget-nav">
-                    <li><a href="#">Chairs</a></li>
-                    <li><a href="#">Sofas</a></li>
-                    <li><a href="#">Tables</a></li>
+                    <li><a href="../scripts/product.php?category=chair">Chairs</a></li>
+                    <li><a href="../scripts/product.php?category=sofa">Sofas</a></li>
+                    <li><a href="../scripts/product.php?category=table">Tables</a></li>
                   </ul>
                 </div>
                 <!-- Footer Nav of the Page end -->
@@ -243,8 +227,8 @@
                 <div class="nav-widget-1">
                   <h3 class="f-widget-heading">Information</h3>
                   <ul class="list-unstyled f-widget-nav">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
                   </ul>
                 </div>
                 <!-- Footer Nav of the Page end -->
@@ -252,9 +236,9 @@
                 <div class="nav-widget-1">
                   <h3 class="f-widget-heading">Account</h3>
                   <ul class="list-unstyled f-widget-nav">
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Order Tracking</a></li>
-                    <li><a href="#">Shopping Cart</a></li>
+                    <li><a href="../scripts/userprofile.php">My Account</a></li>
+                    <li><a href="../scripts/trackorder.php">Order Tracking</a></li>
+                    <li><a href="../scripts/cart.php">Shopping Cart</a></li>
                   </ul>
                 </div>
                 <!-- Footer Nav of the Page end -->
@@ -266,7 +250,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-xs-12 col-sm-6">
-                  <p>© <a href="index.html">Rentac.</a> - All rights Reserved</p>
+                  <p>© <a href="../scripts/home.php">Rentac.</a> - All rights Reserved</p>
                 </div>
               </div>
             </div>
@@ -277,11 +261,11 @@
     <span id="back-top" class="fa fa-arrow-up"></span>
   </div>
   <!-- include jQuery -->
-  <script src="js/jquery.js"></script>
+  <script src="../js/jquery.js"></script>
   <!-- include jQuery -->
-  <script src="js/plugins.js"></script>
+  <script src="../js/plugins.js"></script>
   <!-- include jQuery -->
-  <script src="js/jquery.main.js"></script>
+  <script src="../js/jquery.main.js"></script>
 </body>
 
 <!-- Mirrored from htmlbeans.com/html/schon/registerpage.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Apr 2023 13:56:47 GMT -->
